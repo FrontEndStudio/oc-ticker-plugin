@@ -20,7 +20,7 @@ title, content, status, sort_order
 
 **Sorting**
 - sortColumn (autocomplete): Model column the records should be ordered by
-- sortDirection (drodown): [asc|desc]
+- sortDirection (dropdown): [asc|desc]
 
 ## How to use this component in October CMS
 
