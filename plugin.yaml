@@ -1,0 +1,17 @@
+plugin:
+    name: 'fes.ticker::lang.plugin.name'
+    description: 'fes.ticker::lang.plugin.description'
+    author: FrontEndStudio
+    icon: oc-icon-bullhorn
+    homepage: 'http://www.frontendstudio.com'
+permissions:
+    fes.ticker.records:
+        tab: 'Adjust ticker'
+        label: 'Adjust ticker'
+navigation:
+    main-menu-item:
+        label: 'fes.ticker::lang.plugin.name'
+        url: fes/ticker/record
+        icon: icon-bullhorn
+        permissions:
+            - fes.ticker.records

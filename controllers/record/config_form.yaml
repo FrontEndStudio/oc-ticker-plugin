@@ -1,0 +1,10 @@
+name: fes.ticker::lang.plugin.name
+form: $/fes/ticker/models/record/fields.yaml
+modelClass: Fes\Ticker\Models\Record
+defaultRedirect: fes/ticker/record
+create:
+    redirect: 'fes/ticker/record/update/:id'
+    redirectClose: fes/ticker/record
+update:
+    redirect: fes/ticker/record
+    redirectClose: fes/ticker/record

@@ -1,0 +1,16 @@
+columns:
+    title:
+        label: fes.ticker::lang.ticker.title
+        type: text
+        sortable: true
+    content:
+        label: fes.ticker::lang.ticker.content
+        type: text
+    sort_order:
+        label: fes.ticker::lang.ticker.sort_order
+        type: number
+        sortable: true
+    status:
+        label: fes.ticker::lang.ticker.status
+        type: number
+        sortable: true

@@ -1,0 +1,25 @@
+{% set records = __SELF__.records %}
+{% set noRecordsMessage = __SELF__.noRecordsMessage %}
+{% set extraData = __SELF__.extraData %}
+
+<div class="ticker" id="js_ticker"
+data-cycle-swipe="true"
+data-cycle-fx="scrollVert"
+data-cycle-timeout="4000"
+data-cycle-log="false"
+data-cycle-prev="#js-ticker-prev"
+data-cycle-next="#js-ticker-next"
+data-cycle-slides="> span">
+    {% for record in records %}
+        <span class="ticker--element" style="display: none;">
+            {# 'extraData' is added as property to the tickerList component #}
+            {% if record.id == 4 %}
+                {{ record.content }} {{ extraData }}
+            {% else %}
+                {{ include(template_from_string(record.content)) }}
+            {% endif %}
+        </span>
+    {% else %}
+        <span class="ticker--element" style="display: none;">{{ noRecordsMessage }}</span>
+    {% endfor %}
+</div>

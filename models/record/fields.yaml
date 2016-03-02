@@ -1,0 +1,13 @@
+fields:
+    title:
+        label: fes.ticker::lang.ticker.title
+        span: auto
+        type: text
+    content:
+        label: fes.ticker::lang.ticker.content
+        span: auto
+        type: text
+    status:
+        label: fes.ticker::lang.ticker.status
+        span: auto
+        type: switch

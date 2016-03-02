@@ -1,0 +1,5 @@
+title: fes.ticker::lang.plugin.name
+modelClass: Fes\Ticker\Models\Record
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar
