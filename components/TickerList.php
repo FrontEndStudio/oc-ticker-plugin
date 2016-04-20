@@ -32,7 +32,7 @@ class TickerList extends ComponentBase
                 'title'       => 'fes.ticker::lang.components.list_sort_column',
                 'description' => 'fes.ticker::lang.components.list_sort_column_description',
                 'type'        => 'autocomplete',
-                'group'       => 'fes.birthday::lang.components.list_sorting',
+                'group'       => 'fes.ticker::lang.components.list_sorting',
                 'showExternalParam' => false
             ],
             'sortDirection' => [
